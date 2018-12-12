@@ -33,7 +33,7 @@ public enum ExchangeType
 
 
 
-Currency Class
+Currency Sınıfı
 ---
 
 ```c#
