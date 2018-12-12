@@ -184,7 +184,7 @@ Yada
 double cur = CurrenciesExchange.CalculateTodaysExchange(2000 ,CurrenciesExchange.CurrencyCode.TRY, CurrenciesExchange.CurrencyCode.USD,CurrenciesExchange.ExchangeType.BanknoteBuying);
 ``` 
 
-Geçmiş Tarihli Fiyatı Hesaplama
+Geçmiş Tarihli Kur Fiyatı Hesaplama
 ---
 
 ```c#
