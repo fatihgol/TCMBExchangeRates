@@ -33,8 +33,8 @@ Güncel Döviz Kurlarını Alma ( DataTable )
 ```c#
 DataTable curs = CurrenciesExchange.GetDataTableAllCurrenciesTodaysExchangeRates();
 ```
-Çıktı
------
+
+
 ==================================================== DataTable ====================================================
  | Name                   | Code | CrossRateName | ForexBuying | ForexSelling | BanknoteBuying | BanknoteSelling | 
 -------------------------------------------------------------------------------------------------------------------
