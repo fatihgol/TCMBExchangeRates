@@ -34,31 +34,6 @@ Güncel Döviz Kurlarını Alma ( DataTable )
 DataTable curs = CurrenciesExchange.GetDataTableAllCurrenciesTodaysExchangeRates();
 ```
 
-
-==================================================== DataTable ====================================================
- | Name                   | Code | CrossRateName | ForexBuying | ForexSelling | BanknoteBuying | BanknoteSelling | 
--------------------------------------------------------------------------------------------------------------------
- | Türk Lirası 			  |  TRY |       TRY/TRY |           1 |            1 |              1 |               1 | 
- | ABD DOLARI 			  |  USD |       USD/TRY |      5,3505 |       5,3601 |         5,3467 |          5,3682 | 
- | AVUSTRALYA DOLARI 	  |  AUD |       AUD/TRY |      3,8456 |       3,8706 |         3,8279 |          3,8939 | 
- | DANİMARKA KRONU 		  |  DKK |       DKK/TRY |     0,81438 |      0,81838 |        0,81381 |         0,82026 | 
- | EURO 				  |  EUR |       EUR/TRY |       6,088 |        6,099 |         6,0837 |          6,1081 | 
- | İNGİLİZ STERLİNİ 	  |  GBP |       GBP/TRY |      6,7289 |        6,764 |         6,7242 |          6,7741 | 
- | İSVİÇRE FRANGI 		  |  CHF |       CHF/TRY |      5,4037 |       5,4384 |         5,3956 |          5,4465 | 
- | İSVEÇ KRONU 			  |  SEK |       SEK/TRY |     0,58816 |      0,59425 |        0,58775 |         0,59562 | 
- | KANADA DOLARI 		  |  CAD |       CAD/TRY |      3,9861 |       4,0041 |         3,9714 |          4,0193 | 
- | KUVEYT DİNARI 		  |  KWD |       KWD/TRY |     17,4913 |      17,7201 |        17,2289 |         17,9859 | 
- | NORVEÇ KRONU 		  |  NOK |       NOK/TRY |     0,62547 |      0,62968 |        0,62504 |         0,63113 | 
- | SUUDİ ARABİSTAN RİYALİ |  SAR |       SAR/TRY |      1,4261 |       1,4287 |         1,4154 |          1,4394 | 
- | JAPON YENİ 			  |  JPY |       JPY/TRY |      4,7195 |       4,7507 |          4,702 |          4,7688 | 
- | BULGAR LEVASI 		  |  BGN |       BGN/TRY |      3,0952 |       3,1357 |              0 |               0 | 
- | RUMEN LEYİ 		      |  RON |       RON/TRY |      1,3009 |        1,318 |              0 |               0 | 
- | RUS RUBLESİ 			  |  RUB |       RUB/TRY |     0,08009 |      0,08114 |              0 |               0 | 
- | İRAN RİYALİ 			  |  IRR |       IRR/TRY |     0,01267 |      0,01283 |              0 |               0 | 
- | ÇİN YUANI 			  |  CNY |       CNY/TRY |     0,77084 |      0,78092 |              0 |               0 | 
- | PAKİSTAN RUPİSİ 		  |  PKR |       PKR/TRY |     0,03806 |      0,03856 |              0 |               0 | 
- | KATAR RİYALİ 		  |  QAR |       QAR/TRY |      1,4613 |       1,4804 |              0 |               0 | 
- | ÖZEL ÇEKME HAKKI (SDR) |  XDR |       XDR/TRY |      7,4087 |            0 |              0 |               0 | 
-===================================================================================================================
+<table border = '1'><tr><th>Name</th><th>Code</th><th>CrossRateName</th><th>ForexBuying</th><th>ForexSelling</th><th>BanknoteBuying</th><th>BanknoteSelling</th></tr><tr><td>Türk Lirası</td><td>TRY</td><td>TRY/TRY</td><td>1</td><td>1</td><td>1</td><td>1</td></tr><tr><td>ABD DOLARI</td><td>USD</td><td>USD/TRY</td><td>5,3505</td><td>5,3601</td><td>5,3467</td><td>5,3682</td></tr><tr><td>AVUSTRALYA DOLARI</td><td>AUD</td><td>AUD/TRY</td><td>3,8456</td><td>3,8706</td><td>3,8279</td><td>3,8939</td></tr><tr><td>DANİMARKA KRONU</td><td>DKK</td><td>DKK/TRY</td><td>0,81438</td><td>0,81838</td><td>0,81381</td><td>0,82026</td></tr><tr><td>EURO</td><td>EUR</td><td>EUR/TRY</td><td>6,088</td><td>6,099</td><td>6,0837</td><td>6,1081</td></tr><tr><td>İNGİLİZ STERLİNİ</td><td>GBP</td><td>GBP/TRY</td><td>6,7289</td><td>6,764</td><td>6,7242</td><td>6,7741</td></tr><tr><td>İSVİÇRE FRANGI</td><td>CHF</td><td>CHF/TRY</td><td>5,4037</td><td>5,4384</td><td>5,3956</td><td>5,4465</td></tr><tr><td>İSVEÇ KRONU</td><td>SEK</td><td>SEK/TRY</td><td>0,58816</td><td>0,59425</td><td>0,58775</td><td>0,59562</td></tr><tr><td>KANADA DOLARI</td><td>CAD</td><td>CAD/TRY</td><td>3,9861</td><td>4,0041</td><td>3,9714</td><td>4,0193</td></tr><tr><td>KUVEYT DİNARI</td><td>KWD</td><td>KWD/TRY</td><td>17,4913</td><td>17,7201</td><td>17,2289</td><td>17,9859</td></tr><tr><td>NORVEÇ KRONU</td><td>NOK</td><td>NOK/TRY</td><td>0,62547</td><td>0,62968</td><td>0,62504</td><td>0,63113</td></tr><tr><td>SUUDİ ARABİSTAN RİYALİ</td><td>SAR</td><td>SAR/TRY</td><td>1,4261</td><td>1,4287</td><td>1,4154</td><td>1,4394</td></tr><tr><td>JAPON YENİ</td><td>JPY</td><td>JPY/TRY</td><td>4,7195</td><td>4,7507</td><td>4,702</td><td>4,7688</td></tr><tr><td>BULGAR LEVASI</td><td>BGN</td><td>BGN/TRY</td><td>3,0952</td><td>3,1357</td><td>0</td><td>0</td></tr><tr><td>RUMEN LEYİ</td><td>RON</td><td>RON/TRY</td><td>1,3009</td><td>1,318</td><td>0</td><td>0</td></tr><tr><td>RUS RUBLESİ</td><td>RUB</td><td>RUB/TRY</td><td>0,08009</td><td>0,08114</td><td>0</td><td>0</td></tr><tr><td>İRAN RİYALİ</td><td>IRR</td><td>IRR/TRY</td><td>0,01267</td><td>0,01283</td><td>0</td><td>0</td></tr><tr><td>ÇİN YUANI</td><td>CNY</td><td>CNY/TRY</td><td>0,77084</td><td>0,78092</td><td>0</td><td>0</td></tr><tr><td>PAKİSTAN RUPİSİ</td><td>PKR</td><td>PKR/TRY</td><td>0,03806</td><td>0,03856</td><td>0</td><td>0</td></tr><tr><td>KATAR RİYALİ</td><td>QAR</td><td>QAR/TRY</td><td>1,4613</td><td>1,4804</td><td>0</td><td>0</td></tr><tr><td>ÖZEL ÇEKME HAKKI (SDR)                            </td><td>XDR</td><td>XDR/TRY</td><td>7,4087</td><td>0</td><td>0</td><td>0</td></tr></table>
 
      
