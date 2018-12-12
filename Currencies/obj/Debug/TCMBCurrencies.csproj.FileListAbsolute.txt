@@ -1,0 +1,12 @@
+c:\users\fgol\documents\visual studio 2017\Projects\Currencies\Currencies\bin\Debug\TCMBCurrencies.dll
+c:\users\fgol\documents\visual studio 2017\Projects\Currencies\Currencies\bin\Debug\TCMBCurrencies.pdb
+c:\users\fgol\documents\visual studio 2017\Projects\Currencies\Currencies\obj\Debug\TCMBCurrencies.csproj.CoreCompileInputs.cache
+c:\users\fgol\documents\visual studio 2017\Projects\Currencies\Currencies\obj\Debug\TCMBCurrencies.dll
+c:\users\fgol\documents\visual studio 2017\Projects\Currencies\Currencies\obj\Debug\TCMBCurrencies.pdb
+C:\Users\fgol\Documents\Visual Studio 2017\Projects\Currencies\Currencies\obj\Debug\TCMBCurrencies.csprojResolveAssemblyReference.cache
+C:\Users\fgol\Desktop\Currencies\Currencies\bin\Debug\TCMBCurrencies.dll
+C:\Users\fgol\Desktop\Currencies\Currencies\bin\Debug\TCMBCurrencies.pdb
+C:\Users\fgol\Desktop\Currencies\Currencies\obj\Debug\TCMBCurrencies.csprojAssemblyReference.cache
+C:\Users\fgol\Desktop\Currencies\Currencies\obj\Debug\TCMBCurrencies.csproj.CoreCompileInputs.cache
+C:\Users\fgol\Desktop\Currencies\Currencies\obj\Debug\TCMBCurrencies.dll
+C:\Users\fgol\Desktop\Currencies\Currencies\obj\Debug\TCMBCurrencies.pdb
