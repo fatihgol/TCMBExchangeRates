@@ -95,7 +95,7 @@ DataTable curs = CurrenciesExchange.GetDataTableAllCurrenciesHistoricalExchangeR
 
 ```c#
 //CurrenciesExchange.GetTodaysExchangeRates(CurrencyCode Kur);
-Currency cur = CurrenciesExchange.GetTodaysExchangeRates(CurrenciesExchange.CurrencyCode.USD);
+Currency cur = CurrenciesExchange.GetTodaysExchangeRates(CurrencyCode.USD);
 ```
 
 #### Geçmiş Tarihli Döviz Kurunu Alma
@@ -103,27 +103,27 @@ Currency cur = CurrenciesExchange.GetTodaysExchangeRates(CurrenciesExchange.Curr
 ```c#
 //CurrenciesExchange.GetTodaysExchangeRates(CurrencyCode Kur, DateTime tarih);
 DateTime date = new DateTime(2018,5,20);
-Currency cur = CurrenciesExchange.GetHistoricalExchangeRates(CurrenciesExchange.CurrencyCode.USD,date);
+Currency cur = CurrenciesExchange.GetHistoricalExchangeRates(CurrencyCode.USD,date);
 ```
 Yada
 
 ```c#
 //CurrenciesExchange.GetTodaysExchangeRates(CurrencyCode Kur, int Yıl, int Ay, int Gün);
-Currency cur = CurrenciesExchange.GetHistoricalExchangeRates(CurrenciesExchange.CurrencyCode.USD, 2018, 5, 20);
+Currency cur = CurrenciesExchange.GetHistoricalExchangeRates(CurrencyCode.USD, 2018, 5, 20);
 ```
 
 #### Güncel Çapraz Kur Verilerini Alma
 
 ```c#
 //CurrenciesExchange.GetTodaysCrossRates(CurrencyCode Dönüştürülecek Kur, CurrencyCode Şuanki Kur);
-Currency cur = CurrenciesExchange.GetTodaysCrossRates(CurrenciesExchange.CurrencyCode.EUR, CurrenciesExchange.CurrencyCode.USD);
+Currency cur = CurrenciesExchange.GetTodaysCrossRates(CurrencyCode.EUR, CurrencyCode.USD);
 ```    
 
 #### Güncel Çapraz Kur Oranını Alma
 
 ```c#
 //CurrenciesExchange.GetTodaysCrossRate(CurrencyCode Dönüştürülecek Kur, CurrencyCode Şuanki Kur);
-double cur = CurrenciesExchange.GetTodaysCrossRate(CurrenciesExchange.CurrencyCode.EUR, CurrenciesExchange.CurrencyCode.USD);
+double cur = CurrenciesExchange.GetTodaysCrossRate(CurrencyCode.EUR, CurrencyCode.USD);
 ``` 
 
 #### Geçmiş Tarihli Çapraz Kur Verilerini Alma
@@ -131,14 +131,14 @@ double cur = CurrenciesExchange.GetTodaysCrossRate(CurrenciesExchange.CurrencyCo
 ```c#
 //CurrenciesExchange.GetHistoricalCrossRates(CurrencyCode Dönüştürülecek Kur, CurrencyCode Şuanki Kur, DateTime tarih);
 DateTime date = new DateTime(2018,5,20);
-Currency cur = CurrenciesExchange.GetHistoricalCrossRates(CurrenciesExchange.CurrencyCode.EUR, CurrenciesExchange.CurrencyCode.USD, date);
+Currency cur = CurrenciesExchange.GetHistoricalCrossRates(CurrencyCode.EUR, CurrencyCode.USD, date);
 ```   
 
 Yada
 
 ```c#
 //CurrenciesExchange.GetHistoricalCrossRates(CurrencyCode Dönüştürülecek Kur, CurrencyCode Şuanki Kur, int Yıl, int Ay, int Gün);
-Currency cur = CurrenciesExchange.GetHistoricalCrossRates(CurrenciesExchange.CurrencyCode.EUR, CurrenciesExchange.CurrencyCode.USD, 2018, 5, 20);
+Currency cur = CurrenciesExchange.GetHistoricalCrossRates(CurrencyCode.EUR, CurrencyCode.USD, 2018, 5, 20);
 ```   
 
 #### Geçmiş Tarihli Çapraz Kur Oranını Alma
@@ -146,27 +146,27 @@ Currency cur = CurrenciesExchange.GetHistoricalCrossRates(CurrenciesExchange.Cur
 ```c#
 //CurrenciesExchange.GetHistoricalCrossRate(CurrencyCode Dönüştürülecek Kur, CurrencyCode Şuanki Kur, DateTime tarih);
 DateTime date = new DateTime(2018,5,20);
-double cur = CurrenciesExchange.GetHistoricalCrossRate(CurrenciesExchange.CurrencyCode.EUR, CurrenciesExchange.CurrencyCode.USD, date);
+double cur = CurrenciesExchange.GetHistoricalCrossRate(CurrencyCode.EUR, CurrencyCode.USD, date);
 ```   
 
 Yada
 
 ```c#
 //CurrenciesExchange.GetHistoricalCrossRate(CurrencyCode Dönüştürülecek Kur, CurrencyCode Şuanki Kur, int Yıl, int Ay, int Gün);
-double cur = CurrenciesExchange.GetHistoricalCrossRate(CurrenciesExchange.CurrencyCode.EUR, CurrenciesExchange.CurrencyCode.USD, 2018, 5, 20);
+double cur = CurrenciesExchange.GetHistoricalCrossRate(CurrencyCode.EUR, CurrencyCode.USD, 2018, 5, 20);
 ```  
 
 #### Güncel Kur Fiyatı Hesaplama
 
 ```c#
 //CurrenciesExchange.CalculateTodaysExchange(double Miktar, CurrencyCode Şuanki Kur, CurrencyCode Dönüştürülecek Kur);
-double cur = CurrenciesExchange.CalculateTodaysExchange(2000 ,CurrenciesExchange.CurrencyCode.TRY, CurrenciesExchange.CurrencyCode.USD);
+double cur = CurrenciesExchange.CalculateTodaysExchange(2000 ,CurrencyCode.TRY, CurrencyCode.USD);
 ```  
 Yada
 
 ```c#
 //CurrenciesExchange.CalculateTodaysExchange(double Miktar, CurrencyCode Şuanki Kur, CurrencyCode Dönüştürülecek Kur, ExchangeType Dönüşüm Tipi);
-double cur = CurrenciesExchange.CalculateTodaysExchange(2000 ,CurrenciesExchange.CurrencyCode.TRY, CurrenciesExchange.CurrencyCode.USD,CurrenciesExchange.ExchangeType.BanknoteBuying);
+double cur = CurrenciesExchange.CalculateTodaysExchange(2000 ,CurrencyCode.TRY, CurrencyCode.USD,.ExchangeType.BanknoteBuying);
 ``` 
 
 #### Geçmiş Tarihli Kur Fiyatı Hesaplama
@@ -174,24 +174,24 @@ double cur = CurrenciesExchange.CalculateTodaysExchange(2000 ,CurrenciesExchange
 ```c#
 //CurrenciesExchange.CalculateHistoricalExchange(double Miktar, CurrencyCode Şuanki Kur, CurrencyCode Dönüştürülecek Kur, DateTime tarih);
 DateTime date = new DateTime(2018,5,20);
-double cur = CurrenciesExchange.CalculateHistoricalExchange(2000 ,CurrenciesExchange.CurrencyCode.TRY, CurrenciesExchange.CurrencyCode.USD, date);
+double cur = CurrenciesExchange.CalculateHistoricalExchange(2000 ,CurrencyCode.TRY, CurrencyCode.USD, date);
 ```  
 Yada
 
 ```c#
 //CurrenciesExchange.CalculateHistoricalExchange(double Miktar, CurrencyCode Şuanki Kur, CurrencyCode Dönüştürülecek Kur, int Yıl, int Ay, int Gün);
-double cur = CurrenciesExchange.CalculateHistoricalExchange(2000 ,CurrenciesExchange.CurrencyCode.TRY, CurrenciesExchange.CurrencyCode.USD, 2018,5,20);
+double cur = CurrenciesExchange.CalculateHistoricalExchange(2000 ,CurrencyCode.TRY, CurrencyCode.USD, 2018,5,20);
 ```  
 Yada
 
 ```c#
 //CurrenciesExchange.CalculateHistoricalExchange(double Miktar, CurrencyCode Şuanki Kur, CurrencyCode Dönüştürülecek Kur, ExchangeType Dönüşüm Tipi, DateTime tarih);
 DateTime date = new DateTime(2018,5,20);
-double cur = CurrenciesExchange.CalculateHistoricalExchange(2000 ,CurrenciesExchange.CurrencyCode.TRY, CurrenciesExchange.CurrencyCode.USD, CurrenciesExchange.ExchangeType.BanknoteBuying, date);
+double cur = CurrenciesExchange.CalculateHistoricalExchange(2000 ,CurrencyCode.TRY, CurrencyCode.USD, .ExchangeType.BanknoteBuying, date);
 ```  
 Yada
 
 ```c#
-//CurrenciesExchange.CalculateHistoricalExchange(double Miktar, CurrencyCode Şuanki Kur, CurrencyCode Dönüştürülecek Kur,CurrenciesExchange.ExchangeType.BanknoteBuying,ExchangeType Dönüşüm Tipi, int Yıl, int Ay, int Gün);
-double cur = CurrenciesExchange.CalculateHistoricalExchange(2000 ,CurrenciesExchange.CurrencyCode.TRY, CurrenciesExchange.CurrencyCode.USD, CurrenciesExchange.ExchangeType.BanknoteBuying, 2018,5,20);
+//CurrenciesExchange.CalculateHistoricalExchange(double Miktar, CurrencyCode Şuanki Kur, CurrencyCode Dönüştürülecek Kur,.ExchangeType.BanknoteBuying,ExchangeType Dönüşüm Tipi, int Yıl, int Ay, int Gün);
+double cur = CurrenciesExchange.CalculateHistoricalExchange(2000 ,CurrencyCode.TRY, CurrencyCode.USD, .ExchangeType.BanknoteBuying, 2018,5,20);
 ```  

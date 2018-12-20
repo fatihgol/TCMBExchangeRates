@@ -6,24 +6,26 @@ using System.Xml;
 
 namespace TCMBCurrencies
 {
+    public enum ExchangeType
+    {
+        ForexBuying, ForexSelling,
+        BanknoteBuying, BanknoteSelling
+    }
+
+    public enum CurrencyCode
+    {
+        USD, AUD, DKK,
+        EUR, GBP, CHF,
+        SEK, CAD, KWD,
+        NOK, SAR, JPY,
+        BGN, RON, RUB,
+        IRR, CNY, PKR,
+        TRY
+    }
+
     public static class CurrenciesExchange
     {
-        public enum ExchangeType
-        {
-            ForexBuying,ForexSelling,
-            BanknoteBuying,BanknoteSelling
-        }
-
-        public enum CurrencyCode
-        {
-            USD, AUD, DKK,
-            EUR, GBP, CHF,
-            SEK, CAD, KWD,
-            NOK, SAR, JPY,
-            BGN, RON, RUB,
-            IRR, CNY, PKR,
-            TRY
-        }
+        
 
         public static Dictionary<string, Currency> GetAllCurrenciesTodaysExchangeRates()
         {
